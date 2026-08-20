@@ -1,5 +1,8 @@
 # DeepSeek Harness
 
+> **🔎 This fork adds a [SearXNG](https://docs.searxng.org) search provider** — self-hosted web search with no API key.
+> See [`packages/web/web-search-searxng/`](packages/web/web-search-searxng/) for details.
+
 English | [中文](README.zh.md)
 
 DeepSeek Harness (`dsh`) is an open-source agent harness developed by [DeepSeek AI](https://deepseek.com).
