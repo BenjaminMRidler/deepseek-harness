@@ -1,0 +1,13 @@
+# SearXNG search provider bundle patch.
+# Replaces the default DeepSeek search provider with SearXNG.
+
+- id: web
+  name: '@deepseek-ai/dsh-web'
+  config:
+    searchProvider: searxng
+
+- insert:
+    - id: web-search-searxng
+      name: '@deepseek-ai/dsh-web-search-searxng'
+      config:
+        baseURL: http://localhost:8888

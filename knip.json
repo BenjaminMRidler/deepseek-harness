@@ -535,6 +535,10 @@
         "tests/**/*.ts"
       ]
     },
+    "packages/web/web-search-searxng": {
+      "entry": ["src/index.ts", "src/invariant.ts"],
+      "project": ["src/**/*.ts"],
+    },
     "packages/web/web-search-exa": {
       "entry": [
         "tests/**/*.spec.ts",
